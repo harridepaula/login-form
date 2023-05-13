@@ -119,3 +119,8 @@ a, a:visited {
 #forgot-password {
     float: right;
 }
+
+#animation {
+    position: relative;
+    top: 30vh;
+}
