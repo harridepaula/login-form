@@ -5,22 +5,29 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <div class="login-container">
-        <h1>Welcome Back!</h1>
-        <p>Scan your access card or login below.</p>
-        <form>
-            <label for="email">Email</label><br>
-            <input name="email" id="email" type="email" placeholder="Email" required><br>
-            <label for="password">Password</label><br>
-            <input name="password" id="email" type="password" placeholder="Password" required>
-            <button class="btn-primary" type="submit">Login with Email</button>
-            <button class="btn-secondary" type="submit">Login with Azure</button>
-            <div class="checkbox-container">
-                <input name="keep-logged-in" id="keep-logged-in" type="checkbox">
-                <label for="keep-logged-in" style="word-wrap:break-word">Keep me logged in</label>
+    <div class="container">
+        <div class="left-section">
+            <div class="animation"></div>
+        </div>
+        <div class="right-section">
+            <div class="login-container">
+                <h1>Welcome Back!</h1>
+                <p>Scan your access card or login below.</p>
+                <form>
+                    <label for="email">Email</label><br>
+                    <input name="email" id="email" type="email" placeholder="Email" required><br>
+                    <label for="password">Password</label><br>
+                    <input name="password" id="password" type="password" placeholder="Password" required>
+                    <button class="btn-primary" type="submit">Login with Email</button>
+                    <button class="btn-secondary" type="submit">Login with Azure</button>
+                    <div class="checkbox-container">
+                        <input name="keep-logged-in" id="keep-logged-in" type="checkbox">
+                        <label for="keep-logged-in">Keep me logged in</label>
+                    <a href="#" id="forgot-password">Forgot Password?</a>
+                </div>
+                </form>
             </div>
-            <a href="#">Forgot Password?</a>
-        </form>
+        </div>
     </div>
 </body>
 </html>
