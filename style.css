@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.login-container {
+    position: relative;
+    top: 20vh;
+    max-width: 500px;
+    padding: 40px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px 20px 30px 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input {
+    width: 94%;
+    padding: 0.75rem;
+    margin: 5px 0 30px 0;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.btn-primary {
+    margin: 5px 0;
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    background-color: #FF5800;
+    border: 2px solid #FF5800;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #fff;
+    color: #FF5800;
+    border: 2px solid #FF5800;
+}
+
+.btn-secondary {
+    margin: 5px 0;
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    background-color: #fff;
+    border: 2px solid #FF5800;
+    color: #FF5800;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn-secondary:hover {
+    background-color: #FF5800;
+    color: #fff;
+    border: 2px solid #FF5800;
+}
+
+a {
+    color: #000;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-container input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+[type="checkbox"] {
+    vertical-align:middle;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    word-wrap: break-word;
+}
+
+[type="checkbox"] > label {
+    color: #000;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
