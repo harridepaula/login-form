@@ -124,3 +124,31 @@ a, a:visited {
     position: relative;
     top: 30vh;
 }
+
+
+/* Media Query for Mobile Devices */
+@media (max-width: 767px) {
+    body {
+        background-color: #BBBAC8;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .login-container {
+        top: 20vh;
+    }
+
+    .left-section {
+        display: none;
+    }
+
+    .right-section {
+        flex: 1;
+    }
+
+    #animation {
+        display: none;
+    }
+}
